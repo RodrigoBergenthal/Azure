@@ -67,4 +67,55 @@ Microsoft Azure é uma plataforma de computação em nuvem que oferece uma ampla
 
 ---
 
-Espero que este README sirva como um bom ponto de partida para suas anotações no Bootcamp de Azure. Boa sorte nos estudos! 🚀
+## Criação de Máquinas Virtuais
+
+### Passo a Passo para Criar uma Máquina Virtual no Azure
+
+1. **Acesse o Portal do Azure**:
+   - Navegue até o [Azure Portal](https://portal.azure.com/) e faça login com suas credenciais.
+
+2. **Criação de um Novo Recurso**:
+   - No menu esquerdo, clique em **"Create a resource"**.
+   - Na barra de pesquisa, digite **"Virtual Machine"** e selecione a opção correspondente.
+
+3. **Configuração Básica**:
+   - No painel de criação da VM, preencha as informações básicas:
+     - **Subscription**: Selecione sua assinatura do Azure.
+     - **Resource Group**: Crie um novo ou selecione um grupo de recursos existente.
+     - **Virtual Machine Name**: Dê um nome à sua VM.
+     - **Region**: Escolha a região mais próxima de você ou que atenda melhor às suas necessidades.
+     - **Availability Options**: Selecione uma opção de disponibilidade, se necessário.
+
+4. **Escolha da Imagem**:
+   - Em **Image**, escolha o sistema operacional que deseja instalar (ex.: Windows Server, Ubuntu).
+
+5. **Tamanho da Máquina Virtual**:
+   - Em **Size**, escolha o tamanho da VM (número de CPUs, memória). Utilize a opção "See all sizes" para visualizar todas as opções disponíveis.
+
+6. **Configurações de Administração**:
+   - Configure as credenciais de login:
+     - **Authentication Type**: Escolha entre senha ou chave SSH.
+     - **Username**: Insira o nome do usuário.
+     - **Password/SSH Key**: Insira a senha ou carregue a chave SSH.
+
+7. **Discos**:
+   - Configure os discos de armazenamento:
+     - **OS disk type**: Escolha o tipo de disco para o sistema operacional (Standard HDD, Standard SSD, Premium SSD).
+     - Adicione discos adicionais, se necessário.
+
+8. **Rede**:
+   - Configure as opções de rede:
+     - **Virtual Network**: Selecione uma rede virtual existente ou crie uma nova.
+     - **Subnet**: Escolha a sub-rede.
+     - **Public IP**: Configure o IP público, se necessário.
+     - **NIC Network Security Group**: Configure as regras de segurança de rede.
+
+9. **Revisão e Criação**:
+   - Revise todas as configurações e clique em **"Review + create"**.
+   - Após a validação das configurações, clique em **"Create"** para iniciar a criação da VM.
+
+10. **Acesso à Máquina Virtual**:
+    - Após a criação, navegue até a VM no portal do Azure.
+    - Utilize o endereço IP público e as credenciais configuradas para acessar a VM via RDP (Windows) ou SSH (Linux).
+
+---
