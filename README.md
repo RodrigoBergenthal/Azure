@@ -119,3 +119,46 @@ Microsoft Azure é uma plataforma de computação em nuvem que oferece uma ampla
     - Utilize o endereço IP público e as credenciais configuradas para acessar a VM via RDP (Windows) ou SSH (Linux).
 
 ---
+## Calculadora de Custos do Azure
+
+### Passo a Passo para Usar a Calculadora de Custos do Azure
+
+1. **Acesse a Calculadora de Custos do Azure**:
+   - Navegue até a [Calculadora de Preços do Azure](https://azure.microsoft.com/en-us/pricing/calculator/) no seu navegador.
+
+2. **Adicionar Produtos**:
+   - Na página inicial da calculadora, você verá uma barra de pesquisa. Digite o nome do serviço que deseja adicionar (por exemplo, Virtual Machine).
+   - Selecione o serviço nos resultados da pesquisa e ele será adicionado à calculadora.
+
+3. **Configurar Serviços**:
+   - Para cada serviço adicionado, configure as opções específicas de acordo com suas necessidades:
+     - **Região**: Escolha a região onde o serviço será utilizado.
+     - **Tipo de Instância**: Selecione o tipo e tamanho da instância (para VMs).
+     - **Opções de Pagamento**: Escolha o modelo de pagamento (Pay-As-You-Go, Reserved, etc.).
+     - **Quantidade**: Insira a quantidade de recursos que você planeja usar.
+
+4. **Visualizar Estimativa de Custos**:
+   - Conforme você adiciona e configura serviços, a calculadora exibirá uma estimativa de custos na parte inferior da página.
+   - Você pode ver os custos mensais e anuais estimados para cada serviço individualmente e o total combinado.
+
+5. **Salvar e Compartilhar Estimativas**:
+   - Você pode salvar a estimativa de custos para referência futura clicando em **"Export"** no canto superior direito e escolhendo a opção de formato (Excel, PDF).
+   - Para compartilhar a estimativa com colegas ou clientes, clique em **"Share"** e copie o link gerado.
+
+6. **Revisar e Ajustar**:
+   - Revise sua estimativa regularmente e ajuste as configurações conforme necessário para garantir que você esteja dentro do orçamento e aproveitando ao máximo os serviços do Azure.
+
+### Dicas para Uso Eficiente da Calculadora de Custos
+
+- **Explore Diferentes Configurações**: Teste diferentes configurações para ver como elas afetam o custo total.
+- **Comparar Regiões**: Alguns serviços podem ser mais baratos em determinadas regiões.
+- **Reservas e Descontos**: Aproveite as opções de reservas e programas de descontos oferecidos pelo Azure para reduzir custos.
+
+### Referências Adicionais
+
+- [Documentação da Calculadora de Preços do Azure](https://docs.microsoft.com/en-us/azure/cost-management-billing/costs-overview)
+- [Azure Pricing Overview](https://azure.microsoft.com/en-us/pricing/)
+
+---
+
+
