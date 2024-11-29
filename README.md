@@ -160,5 +160,67 @@ Microsoft Azure é uma plataforma de computação em nuvem que oferece uma ampla
 - [Azure Pricing Overview](https://azure.microsoft.com/en-us/pricing/)
 
 ---
+## Componentes de Arquitetura do Azure
 
+### Introdução
+
+A arquitetura do Azure é composta por diversos componentes que trabalham juntos para fornecer soluções de nuvem escaláveis, seguras e eficientes. Compreender esses componentes é essencial para planejar, projetar e implementar sistemas robustos na plataforma Azure.
+
+### Principais Componentes
+
+1. **Grupos de Recursos (Resource Groups)**
+   - Contêiner lógico que agrupa recursos relacionados para facilitar a gestão e organização.
+   - Permite gerenciar, monitorar e aplicar políticas de segurança a todos os recursos dentro do grupo.
+
+2. **Máquinas Virtuais (Virtual Machines)**
+   - Instâncias de computação que podem ser configuradas com diferentes sistemas operacionais e tamanhos.
+   - Utilizadas para hospedar aplicativos, bancos de dados, e serviços em nuvem.
+
+3. **Armazenamento (Storage)**
+   - **Blob Storage**: Armazenamento de objetos para dados não estruturados.
+   - **Disk Storage**: Discos gerenciados para VMs.
+   - **File Storage**: Compartilhamento de arquivos acessível via SMB.
+   - **Queue Storage**: Armazenamento de mensagens em fila para comunicação assíncrona.
+
+4. **Redes Virtuais (Virtual Networks)**
+   - Rede privada no Azure que permite a comunicação segura entre recursos.
+   - Suporta sub-redes, configurações de segurança, e VPNs.
+
+5. **Gateways de VPN (VPN Gateways)**
+   - Permitem a conectividade segura entre redes locais e a nuvem Azure.
+   - Suportam conexões site-to-site, point-to-site, e express route.
+
+6. **Balançadores de Carga (Load Balancers)**
+   - Distribuem tráfego de rede entre várias VMs ou serviços para alta disponibilidade e escalabilidade.
+   - Suportam tráfego de entrada e de saída.
+
+7. **Serviço de Aplicativos (App Services)**
+   - Plataforma de hospedagem para aplicativos web, APIs e serviços móveis.
+   - Suporta várias linguagens de programação e integrações contínuas.
+
+8. **Banco de Dados Gerenciados**
+   - **Azure SQL Database**: Banco de dados relacional baseado no SQL Server.
+   - **Cosmos DB**: Banco de dados NoSQL distribuído globalmente.
+   - **Azure Database for MySQL/PostgreSQL**: Bancos de dados relacionais gerenciados.
+
+9. **Azure Functions**
+   - Serviço de computação sem servidor que executa código sob demanda em resposta a eventos.
+   - Ideal para tarefas automatizadas e processos de integração contínua.
+
+10. **Monitoramento e Diagnóstico**
+    - **Azure Monitor**: Serviço de monitoramento que coleta, analisa e age sobre métricas e logs de recursos do Azure.
+    - **Application Insights**: Serviço de análise de desempenho de aplicativos que detecta anomalias e fornece diagnósticos detalhados.
+
+### Ferramentas de Gestão
+
+- **Azure Portal**: Interface web para criação e gerenciamento de recursos.
+- **Azure CLI**: Ferramenta de linha de comando para automação e gerenciamento.
+- **Azure Resource Manager (ARM)**: Interface que permite a implantação de recursos por meio de templates JSON.
+
+### Referências Adicionais
+
+- [Documentação de Arquitetura do Azure](https://docs.microsoft.com/en-us/azure/architecture/)
+- [Modelos de Arquitetura no Azure](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/)
+
+---
 
