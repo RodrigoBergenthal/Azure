@@ -1,9 +1,9 @@
 
-# Azure Bootcamp dio
+# Azure 
 
 ## Introdução
 
-Bem-vindo ao meu repositório de anotações do Bootcamp de Azure! Este repositório contém minhas anotações, dicas e referências sobre os serviços e ferramentas oferecidos pela Microsoft Azure.
+Bem-vindo ao meu repositório de anotações sobre Azure! Este repositório contém minhas anotações, dicas e referências sobre os serviços e ferramentas oferecidos pela Microsoft Azure.
 
 ## Índice
 
